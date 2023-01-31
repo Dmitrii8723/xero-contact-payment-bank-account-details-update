@@ -40,7 +40,7 @@ async function updateContactPaymentDetails(tenantId, contactID, contacts) {
 
 const tenantId = await setupXeroAndGetTenantID();
 
-const foundAccount = await findXeroContactByEmail(tenantId, 'si29sep223@mailinator.com')
+const foundAccount = await findXeroContactByEmail(tenantId, 'email')
 
 const { contactID } = foundAccount;
 
